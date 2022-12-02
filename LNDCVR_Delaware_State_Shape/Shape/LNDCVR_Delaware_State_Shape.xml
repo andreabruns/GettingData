@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE metadata SYSTEM "http://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, National Geospatial Technical Operations Center</origin>
+        <pubdate>20180810</pubdate>
+        <title>USGS Land Cover - Woodland for Delaware 20180810 State or Territory Shapefile</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/LndCvr/Shape/LNDCVR_Delaware_State_Shape.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Geospatial data that is a derivative land cover product depicting woodland on topographic maps.</abstract>
+      <purpose>This dataset depicts woodland features on the surface of the earth. It is a general purpose dataset for users who are not GIS
+				experts. The geospatial data in this map are from selected National Map data holdings and other government sources.</purpose>
+      <supplinf>This dataset is a land cover dataset that is delineated by areas defined as water, barren, shrubland, wetlands, etc.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1970</begdate>
+          <enddate>2012</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.789023</westbc>
+        <eastbc>-74.984165</eastbc>
+        <northbc>39.8395160000001</northbc>
+        <southbc>38.451132</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>land cover</themekey>
+        <themekey>imagery</themekey>
+        <themekey>annotations</themekey>
+        <themekey>habitat</themekey>
+        <themekey>ecology</themekey>
+        <themekey>biota</themekey>
+        <themekey>flora</themekey>
+        <themekey>Agricultural land</themekey>
+        <themekey>Barren land</themekey>
+        <themekey>Forest land</themekey>
+        <themekey>Not Classified</themekey>
+        <themekey>Orthoimage</themekey>
+        <themekey>Range land</themekey>
+        <themekey>Urban and built-up land</themekey>
+        <themekey>Water</themekey>
+        <themekey>Wetland</themekey>
+        <themekey>Woodland</themekey>
+        <themekey>Land Cover - Woodland</themekey>
+        <themekey>State</themekey>
+        <themekey>Shapefile</themekey>
+      </theme>
+      <place>
+        <placekt>The National Map Place Thesaurus</placekt>
+        <placekey>US</placekey>
+      </place>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>US</placekey>
+        <placekey>United States</placekey>
+        <placekey>DE</placekey>
+        <placekey>Delaware</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts
+			of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full
+			awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these
+			data.</useconst>
+    <browse>
+      <browsen>ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/LndCvr/Shape/LNDCVR_Delaware_State_Shape.jpg</browsen>
+      <browsed>Thumbnail JPG image</browsed>
+      <browset>JPEG</browset>
+    </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Cartographic content is derived from USGS national geospatial databases. The data is owned and hosted by the USGS, but does not
+				preclude using data sources owned and hosted by other organizations, provided that these sources have been approved by the USGS data
+				program.</attraccr>
+    </attracc>
+    <logic>This product is a layered dataset that has been extracted, edited, and updated according to USGS standards.</logic>
+    <complete>Each layer of the dataset is extracted from the USGS national geospatial databases.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This US map product is compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at
+					least 90 percent of well-defined points tested are within 0.02 inch of the true position. In this product, the projection line,
+					grids, and orthoimage are believed to meet NMAS. Positional accuracy of the other data layers is less controllable because of
+					diversity of data sources, and may not meet NMAS.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr />
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20180810</pubdate>
+            <title>Land Cover - Woodland</title>
+            <geoform>Vector digital data</geoform>
+            <othercit>The Woodland Tint is a derivative land cover product created using several national map layers: three National Land
+							Cover Database (NLCD) 2011 raster layers (Tree Canopy, Imperviousness, and Land Cover); and two vector layers (National
+							Hydrography Dataset and Transportation). The process begins with masking the NLCD 2011 Tree Canopy Data cartographic with
+							NLCD 2011 Imperviousness (values from 1-100), and NLCD 2011 Land Cover (value 11 = Open Water). The resulting raster data
+							with canopy values of 20 and greater are converted to woodland vector polygons and smoothed via the Paek Algorithm. The
+							woodland polygons are masked with buffered Transportation (Roads, Airport Runways, and Railroads) and Hydrography (NHD
+							Areas excluding Inundation Area and NHD Waterbodies excluding Swamp/Marsh). The resulting polygons are checked for scale
+							appropriate size (minimum size of one acre), and the small woodland polygons as well as small clearings within the
+							woodland polygons are deleted. For Hawaii and Puerto Rico, two National Land Cover Database (NLCD) raster layers (Tree
+							Canopy 2011 and Imperviousness 2001): and two vector layers(National Hydrography Dataset and Transportation) are used. The
+							resulting raster data is carried out as before to produce the polygon vector data. For Alaska, the Woodland Tint is a
+							derivative land cover product created using five national map layers: one raster layer, National Land Cover Database
+							(NLCD) 2011 (Land Cover); and four vector layers (National Hydrography Dataset, Transportation Roads, Transportation
+							Airports and Transportation Railroads). The process begins with combining three NLCD 2011 Land Cover V1 Classes (41 -
+							Deciduous Forest, 42 - Evergreen Forest, and 43 - Mixed Forest). The resulting raster data was converted to woodland
+							vector polygons, and smoothed via the Paek Algorithm. The woodland polygons are masked with buffered Transportation
+							(Roads, Airport Runways, and Railroads) and Hydrography (NHD Areas excluding Inundation Areas and NHD Waterbodies
+							excluding Swamp/Marsh). The resulting polygons are checked for scale appropriate size (minimum size of one acre), and the
+							small woodland polygons as well as small clearings within the woodland polygons are deleted.</othercit>
+            <onlink>http://nationalmap.gov</onlink>
+            <onlink>https://www.mrlc.gov/nlcd2011.php</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2016</begdate>
+              <enddate>2016</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Land Cover - Woodland</srccitea>
+        <srccontr>National Landcover Dataset; National Hydrography Dataset; National Transportation Dataset</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>All geospatial content is taken from national geospatial databases under the stewardship of USGS data programs. The NAIP
+					imagery is provided by a seamless tile service that delivers image data at the resolution and quality of the source imagery. The
+					raster and vector data, including grids and collar information, are processed using ESRI ArcGIS software and exported. Map
+					formatting is performed using a custom application, which includes post-processing to embed the metadata XML document. Any use of
+					trade, product, or firm names in this publication is for descriptive purposes only and does not imply endorsement by the U.S.
+					Government.</procdesc>
+        <procdate>20180810</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Public Land Survey System</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Void polygon composed of rings</sdtstype>
+        <ptvctcnt>1012</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00001</latres>
+        <longres>0.00001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.2572221</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, National Geospatial Technical Operations Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Box 25046 Denver Federal Center</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntemail>http://www.usgs.gov/ask/</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM</hours>
+        <cntinst>Metadata information can also be obtained through online services using The National Map Viewer, at
+					http://nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>No liability for content or accuracy is presumed by USGS for data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>FileGDB</formname>
+          <formvern>10.1</formvern>
+          <formcont>Spatial objects with unique identifiers and coordinate data.</formcont>
+          <filedec>No compression applied</filedec>
+          <transize>54417907</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/LndCvr/Shape/LNDCVR_Delaware_State_Shape.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180810</metd>
+    <metrd>20180227</metrd>
+    <metfrd>20190227</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, National Geospatial Technical Operations Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1400 Independence Road</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Box 25046 Denver Federal Center</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntemail>http://www.usgs.gov/ask/</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM</hours>
+        <cntinst>Metadata information can also be obtained through online services using The National Map Viewer, at
+					http://nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov or Ask USGS at http://www.usgs.gov/ask.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
